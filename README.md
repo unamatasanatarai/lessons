@@ -6,3 +6,5 @@
    [bash-stdin-or-file-as-input.md](bash-stdin-or-file-as-input.md)
 1. Noop/pass in bash's if\
    [bash-noop-pass.md](bash-noop-pass.md)
+1. Bash regexp matches\
+   [bash-regexp-capturing-groups.md](bash-regexp-capturing-groups.md)
