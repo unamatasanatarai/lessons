@@ -18,3 +18,10 @@ if true; then
   :
 fi
 ```
+
+**before**
+
+![before](bash-noop-pass-before.png)
+
+**after**
+![after](bash-noop-pass-after.png)
