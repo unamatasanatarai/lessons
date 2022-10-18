@@ -5,4 +5,4 @@
 1. Reading stdin or file in bash\
    [bash-stdin-or-file-as-input.md](bash-stdin-or-file-as-input.md)
 1. Noop/pass in bash's if\
-   (bash-noop-pass.md)
+   [bash-noop-pass.md](bash-noop-pass.md)
