@@ -2,16 +2,14 @@
 
 set -euo pipefail
 
-files=$(find journal -name "*.md" -type f)
 mark_begin='### Table of Contents'
 mark_end='> _n'\''joy!_'
 toc=""
 
-# shellcheck disable=2068
-for file in ${files[@]}; do
+while IFS= read -r file; do
   title=$(head -n1 "$file")
   toc+="1. [${title//# /}]($file)\n"
-done
+done < <(find journal -name "*.md" -type f)
 
 lb=$(grep -ne "$mark_begin" README.md | head -n 1 | awk -F: '{print $1}') || true
 le=$(grep -ne "$mark_end" README.md | head -n 1 | awk -F: '{print $1}') || true
