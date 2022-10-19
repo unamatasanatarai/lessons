@@ -1,5 +1,7 @@
 # Lessons I picked up along the way
 
+Your head remember only so much...
+
 ### Table of Contents
 
 1. [Take input from STDIN or FILE](journal/bash-stdin-or-file-as-input.md)
