@@ -11,18 +11,26 @@ while IFS= read -r file; do
   toc+="1. [${title//# /}]($file)\n"
 done < <(find journal -name "*.md" -type f)
 
-lb=$(grep -ne "$mark_begin" README.md) || true
-le=$(grep -ne "$mark_end" README.md) || true
+removing=false
 
-# remove anything after the colon in the title found by grep
-# https://stackoverflow.com/a/15988793/2119863
-# life's too short :(
-lb="${lb%%:*}"
-le="${le%%:*}"
+while IFS= read -r line; do
 
-if [[ $lb != "" ]] && [[ $le != "" ]]; then
-  sed "$lb,$le d" README.md > /tmp/readme.md
-  cat /tmp/readme.md > README.md
-fi
+  if ! "$removing" && [[ $line =~ $mark_begin ]]; then
+    removing=true
+    echo -e "$mark_begin\n" >> README.md.new
+    echo -e "$toc" >> README.md.new
+  fi
 
-echo -e "$mark_begin\n\n$toc\n$mark_end" >> README.md
+  if "$removing" && [[ $line =~ $mark_end ]]; then
+    removing=false
+  fi
+
+  if ! "$removing"; then
+    echo -e "$line" >> README.md.new
+  fi
+
+done < README.md
+
+mv README.md.new README.md
+
+echo reindexed

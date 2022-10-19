@@ -1,6 +1,6 @@
 # Lessons I picked up along the way
 
-Your head remember only so much...
+My head remembers only so much...
 
 ### Table of Contents
 
