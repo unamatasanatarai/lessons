@@ -8,3 +8,5 @@
    [bash-noop-pass.md](bash-noop-pass.md)
 1. Bash regexp matches\
    [bash-regexp-capturing-groups.md](bash-regexp-capturing-groups.md)
+1. At | atrun on macos\
+   [macos-at-atrun-make-it-work.md](macos-at-atrun-make-it-work.md)
