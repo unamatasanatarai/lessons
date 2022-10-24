@@ -10,5 +10,6 @@ My head remembers only so much...
 1. [Podman with Mariadb and Adminer in MacOS](journal/podman-for-mysql-and-adminer.md)
 1. [at | atrun on Macos](journal/macos-at-atrun-make-it-work.md)
 1. [Run any code and read it back into vim](journal/vim-run-any-code.md)
+1. [Vim CMT - but not a plugin](journal/vim-filter-posix-comment.md)
 
 > _n'joy!_
