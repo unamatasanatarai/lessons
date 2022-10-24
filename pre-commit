@@ -1,0 +1,6 @@
+#!/bin/sh
+
+./reindex
+git add README.md
+
+exit 0
