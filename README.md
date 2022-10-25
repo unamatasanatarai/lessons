@@ -11,6 +11,7 @@ My head remembers only so much...
 1. [Podman with Mariadb and Adminer in MacOS](journal/podman-for-mysql-and-adminer.md)
 1. [at | atrun on Macos](journal/macos-at-atrun-make-it-work.md)
 1. [Vim CMT - but not a plugin](journal/cmt-in-vim-terminal-no-plugin.md)
+1. [Bash dollar singlequote is escaped](journal/bash-dollar-singlequote-is-escaped.md)
 1. [Run any code and read it back into vim](journal/vim-run-any-code.md)
 
 > _n'joy!_
