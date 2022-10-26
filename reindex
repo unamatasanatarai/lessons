@@ -4,12 +4,16 @@ set -euo pipefail
 
 mark_begin='### Table of Contents'
 mark_end='> _n'\''joy!_'
-toc=""
+declare -a toc=()
 
 while IFS= read -r file; do
   title=$(head -n1 "$file")
-  toc+="1. [${title//# /}]($file)\n"
+  #toc+="1. [${title//# /}]($file)\n"
+  toc+=("1. [${title//# /}]($file)")
 done < <(find journal -name "*.md" -type f)
+
+IFS=$'\n' toc=("$(sort <<< "${toc[*]}")")
+unset IFS
 
 removing=false
 
@@ -18,7 +22,7 @@ while IFS= read -r line; do
   if ! "$removing" && [[ $line =~ $mark_begin ]]; then
     removing=true
     echo -e "$mark_begin\n" >> README.md.new
-    echo -e "$toc" >> README.md.new
+    IFS= echo -e "${toc[@]}" >> README.md.new
   fi
 
   if "$removing" && [[ $line =~ $mark_end ]]; then

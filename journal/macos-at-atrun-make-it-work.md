@@ -1,4 +1,4 @@
-# at | atrun on Macos
+# Cron but at | atrun on Macos
 
 1. enable the at daemon: \
    `launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist`
