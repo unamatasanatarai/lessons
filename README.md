@@ -15,5 +15,6 @@ My head remembers only so much...
 1. [Vim CMT - but not a plugin](journal/cmt-in-vim-terminal-no-plugin.md)
 1. [Bash dollar singlequote is escaped](journal/bash-dollar-singlequote-is-escaped.md)
 1. [Run any code and read it back into vim](journal/vim-run-any-code.md)
+1. [How to replace regexp in bash](journal/how-to-replace-regexp-in-bash-20221026-2202.md)
 
 > _n'joy!_
