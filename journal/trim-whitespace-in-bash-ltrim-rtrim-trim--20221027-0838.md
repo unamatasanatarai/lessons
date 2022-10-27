@@ -57,18 +57,20 @@ Use the !! from inside VIM on selected lines and enter `ttw`
 ```nvim
 keymap("n", "<leader>ss", ":%!ttw<cr>", opts)
 -- or to save and restore your cursor position
-keymap("n", "<leader>ss", ":norm mm<cr> | :execute '%!ttw'<cr> | :norm `m<cr>", opts)
+keymap("n", "<leader>ss", ":let winview = winsaveview()<cr> | :execute '%!ttw'<cr> | :call winrestview(winview)<cr>", opts)
 ```
 
 ### Trim whole file just before save
 
 ```nvim
+
 autocmd("BufWritePre", {
   group = augroup,
   callback = function()
-    vim.cmd ":norm mm"
+    vim.cmd "let winview = winsaveview()"
     vim.cmd ":%!ttw"
-    vim.cmd ":norm `m"
+    vim.cmd "call winrestview(winview)"
   end
 })
+
 ```
