@@ -15,6 +15,7 @@ My head remembers only so much...
 1. [Regexp comparison and matches](journal/bash-regexp-capturing-groups.md)
 1. [Run any code and read it back into vim](journal/vim-run-any-code.md)
 1. [Take input from STDIN or FILE](journal/bash-stdin-or-file-as-input.md)
+1. [Trap ctrl+c in bash and run a command on exit](journal/trap-ctrl-c-in-bash-and-run-a-command-on-exit-20221028-2259.md)
 1. [Trim whitespace in bash (ltrim, rtrim, trim)](journal/trim-whitespace-in-bash-ltrim-rtrim-trim--20221027-0838.md)
 1. [Vim CMT - but not a plugin](journal/cmt-in-vim-terminal-no-plugin.md)
 > _n'joy!_
