@@ -8,11 +8,10 @@ declare -a toc=()
 
 while IFS= read -r file; do
   title=$(head -n1 "$file")
-  #toc+="1. [${title//# /}]($file)\n"
   toc+=("1. [${title//# /}]($file)")
-done < <(find journal -name "*.md" -type f)
+done < <(find journal -name "README.md" -type f)
 
-IFS=$'\n' toc=("$(sort <<< "${toc[*]}")")
+IFS=$'\n' toc=("$(sort <<< "${toc[*]}")"$'\n')
 unset IFS
 
 removing=false
