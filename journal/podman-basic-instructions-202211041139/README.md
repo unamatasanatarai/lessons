@@ -32,11 +32,14 @@ ls /mnt/from-hd
 ## Thirdly, keep a container for later
 
 ```console
-podman run -it --name persi alpine /bin/sh
+$ podman run -it --name persi alpine /bin/sh
 / # touch new.file
 / # exit
 
-podman exec -it persi /bin/sh
+$ podman container start persi
+# or: $ podman start persi
+
+$ podman exec -it persi /bin/sh
 / # ls -la new.file
 -rw-r--r--    1 root     root             0 Nov  4 10:59 new.file
 ```
