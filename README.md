@@ -16,6 +16,7 @@ My head remembers only so much...
 1. [How to make bash autocomplete your script commands](journal/how-to-make-bash-autocomplete-your-script-commands-202210262012/README.md)
 1. [How to replace regexp in bash](journal/how-to-replace-regexp-in-bash-202210222202/README.md)
 1. [Noop/pass in bash](journal/noop-pass-in-bash-202210182234/README.md)
+1. [Podman basic instructions](journal/podman-basic-instructions-202211041139/README.md)
 1. [Podman with Mariadb and Adminer in MacOS](journal/podman-for-mysql-and-adminer-202210220915/README.md)
 1. [Regexp comparison and matches](journal/bash-regexp-capturing-groups-202210182243/README.md)
 1. [Run any code and read it back into vim](journal/vim-run-any-code-202210152310/README.md)
