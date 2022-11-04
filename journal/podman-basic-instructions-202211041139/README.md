@@ -2,6 +2,8 @@
 
 ## First things first - a throwaway container
 
+A throwaway container loses everything after closed. For one-off's.
+
 ```
 podman run -it --rm alpine /bin/sh
 podman run -it --rm --rmi alpine /bin/sh
@@ -15,6 +17,29 @@ what?
 - `--rm` - remove the container after exit. i.e. _cleanup_
 - `--rmi` - remove the image after exit. i.e. _cleanup_ and always download a fresh image
 - `alpine` - small footprint image
+
+
+## Secondly, attach a volume
+
+In case you do want to persist anything, add a volume
+
+```console
+podman run -it --rm -v ./:/mnt/from-hd alpine /bin/sh
+ls /mnt/from-hd
+```
+
+
+## Thirdly, keep a container for later
+
+```console
+podman run -it --name persi alpine /bin/sh
+/ # touch new.file
+/ # exit
+
+podman exec -it persi /bin/sh
+/ # ls -la new.file
+-rw-r--r--    1 root     root             0 Nov  4 10:59 new.file
+```
 
 ## First, create the machine!
 
