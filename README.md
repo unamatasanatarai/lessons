@@ -15,6 +15,7 @@ My head remembers only so much...
 1. [How do I cd into a directory holding a file with a script?](journal/script-to-cd-into-directory-202210242233/README.md)
 1. [How to make bash autocomplete your script commands](journal/how-to-make-bash-autocomplete-your-script-commands-202210262012/README.md)
 1. [How to replace regexp in bash](journal/how-to-replace-regexp-in-bash-202210222202/README.md)
+1. [MacOS OSX keeps print history forever - delete it](journal/macos-osx-keeps-print-history-forever---delete-it-202211090918/README.md)
 1. [Noop/pass in bash](journal/noop-pass-in-bash-202210182234/README.md)
 1. [Podman basic instructions](journal/podman-basic-instructions-202211041139/README.md)
 1. [Podman with Mariadb and Adminer in MacOS](journal/podman-for-mysql-and-adminer-202210220915/README.md)
