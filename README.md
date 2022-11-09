@@ -19,6 +19,7 @@ My head remembers only so much...
 1. [Noop/pass in bash](journal/noop-pass-in-bash-202210182234/README.md)
 1. [Podman basic instructions](journal/podman-basic-instructions-202211041139/README.md)
 1. [Podman with Mariadb and Adminer in MacOS](journal/podman-for-mysql-and-adminer-202210220915/README.md)
+1. [Proper way to read lines from file if there is no newline at end of file](journal/proper-way-to-read-lines-from-file-if-there-is-no-newline-at-end-of-file-202211091037/README.md)
 1. [Regexp comparison and matches](journal/bash-regexp-capturing-groups-202210182243/README.md)
 1. [Run any code and read it back into vim](journal/vim-run-any-code-202210152310/README.md)
 1. [Take input from STDIN or FILE](journal/bash-stdin-or-file-as-input-202210160048/README.md)
