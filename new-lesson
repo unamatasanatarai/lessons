@@ -12,11 +12,12 @@ filename=${title,,}
 
 shopt -s extglob
 directory=${filename//+([^a-z0-9_-])/-}-$(date +"%Y%m%d%H%M")
+directory=${directory//+(-)/-}
 shopt -u extglob
 
-path="$HOME/dev/lessons/journal/$directory"
+path="${0%/*}/journal/$directory"
 mkdir -p "$path"
-filepath=$path/README.md
+filepath="$path"/README.md
 touch "$path"
 echo "# $title"$'\n\n' > "$filepath"
 "$EDITOR" "$filepath" -c "norm: cd ~/dev/lessons" -c "norm G"
