@@ -28,6 +28,10 @@ My head remembers only so much...
 1. [Trim whitespace in bash (ltrim, rtrim, trim)](journal/trim-whitespace-in-bash-ltrim-rtrim-trim--202210270838/README.md)
 1. [Vim CMT - but not a plugin](journal/cmt-in-vim-terminal-no-plugin-2022242225/README.md)
 1. [Vim Very Magic Regexp searching and replace (perl complient)](journal/vim-very-magic-regexp-searching-and-replace-perl-complient--202211101001/README.md)
+1. [ab](journal/ab-202211101045/README.md)
+1. [ab](journal/ab-202211101046/README.md)
+1. [ab](journal/ab-202211101047/README.md)
+1. [ab](journal/ab-202211101049/README.md)
 
 > _n'joy!_
 

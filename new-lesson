@@ -16,8 +16,10 @@ directory=${directory//+(-)/-}
 shopt -u extglob
 
 path="${0%/*}/journal/$directory"
-mkdir -p "$path"
 filepath="$path"/README.md
-touch "$path"
+
+[[ -f $filepath ]] && echo "This lesson already exists! Slow down :)"$'\n'$filepath && exit
+mkdir -p "$path"
+touch "$filepath"
 echo "# $title"$'\n\n' > "$filepath"
 "$EDITOR" "$filepath" -c "norm: cd ~/dev/lessons" -c "norm G"
