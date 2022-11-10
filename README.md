@@ -26,6 +26,7 @@ My head remembers only so much...
 1. [Trap ctrl+c in bash and run a command on exit](journal/trap-ctrl-c-in-bash-and-run-a-command-on-exit-202210282259/README.md)
 1. [Trim whitespace in bash (ltrim, rtrim, trim)](journal/trim-whitespace-in-bash-ltrim-rtrim-trim--202210270838/README.md)
 1. [Vim CMT - but not a plugin](journal/cmt-in-vim-terminal-no-plugin-2022242225/README.md)
+1. [Vim Very Magic Regexp searching and replace (perl complient)](journal/vim-very-magic-regexp-searching-and-replace-perl-complient--202211101001/README.md)
 
 > _n'joy!_
 
