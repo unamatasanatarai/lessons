@@ -11,6 +11,7 @@ My head remembers only so much...
 1. [$CDPATH does what autojump and z does](journal/cdpath-bash-autocomplete-202210302047/README.md)
 1. [Bash dollar singlequote is escaped](journal/escape-enter-with-dollar-singlequote-202210262216/README.md)
 1. [Bash expanded dirname](journal/bash-expanded-dirname-202211101037/README.md)
+1. [Create a new file with >](journal/create-a-new-file-with-202211200850/README.md)
 1. [Cron but at | atrun on Macos](journal/macos-at-atrun-make-it-work-202210262215/README.md)
 1. [How do I capture stderr in bash into variable](journal/how-do-i-capture-stderr-in-bash-into-variable-202210262139/README.md)
 1. [How do I cd into a directory holding a file with a script?](journal/script-to-cd-into-directory-202210242233/README.md)
@@ -28,10 +29,6 @@ My head remembers only so much...
 1. [Trim whitespace in bash (ltrim, rtrim, trim)](journal/trim-whitespace-in-bash-ltrim-rtrim-trim--202210270838/README.md)
 1. [Vim CMT - but not a plugin](journal/cmt-in-vim-terminal-no-plugin-2022242225/README.md)
 1. [Vim Very Magic Regexp searching and replace (perl complient)](journal/vim-very-magic-regexp-searching-and-replace-perl-complient--202211101001/README.md)
-1. [ab](journal/ab-202211101045/README.md)
-1. [ab](journal/ab-202211101046/README.md)
-1. [ab](journal/ab-202211101047/README.md)
-1. [ab](journal/ab-202211101049/README.md)
 
 > _n'joy!_
 
