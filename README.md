@@ -11,6 +11,7 @@ My head remembers only so much...
 1. [$CDPATH does what autojump and z does](journal/cdpath-bash-autocomplete-202210302047/README.md)
 1. [Bash dollar singlequote is escaped](journal/escape-enter-with-dollar-singlequote-202210262216/README.md)
 1. [Bash expanded dirname](journal/bash-expanded-dirname-202211101037/README.md)
+1. [Bash regexp case insensitive](journal/bash-regexp-case-insensitive-202211211429/README.md)
 1. [Create a new file with >](journal/create-a-new-file-with-202211200850/README.md)
 1. [Cron but at | atrun on Macos](journal/macos-at-atrun-make-it-work-202210262215/README.md)
 1. [How do I capture stderr in bash into variable](journal/how-do-i-capture-stderr-in-bash-into-variable-202210262139/README.md)
