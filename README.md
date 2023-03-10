@@ -14,6 +14,7 @@ My head remembers only so much...
 1. [Bash regexp case insensitive](journal/bash-regexp-case-insensitive-202211211429/README.md)
 1. [Create a new file with >](journal/create-a-new-file-with-202211200850/README.md)
 1. [Cron but at | atrun on Macos](journal/macos-at-atrun-make-it-work-202210262215/README.md)
+1. [Drive does not mount on macos](journal/drive-does-not-mount-on-macos-202303100932/README.md)
 1. [How do I capture stderr in bash into variable](journal/how-do-i-capture-stderr-in-bash-into-variable-202210262139/README.md)
 1. [How do I cd into a directory holding a file with a script?](journal/script-to-cd-into-directory-202210242233/README.md)
 1. [How to make bash autocomplete your script commands](journal/how-to-make-bash-autocomplete-your-script-commands-202210262012/README.md)
